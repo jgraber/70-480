@@ -1,0 +1,38 @@
+#container {
+    border: solid;
+    width: 332px;
+    height: 332px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hole {
+    background-color: black;
+    border: solid;
+    width: 160px;
+    height: 160px;
+    float: left;
+}
+
+.item {
+    font-size: 128px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 140px;
+    height: 140px;
+    background-color: #C0C0C0;
+    color: #FFFFFF;
+    text-align: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dragging {
+    background-color: yellow;
+}
+
+.over {
+    background-color: khaki;
+}
