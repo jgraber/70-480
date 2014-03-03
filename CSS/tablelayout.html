@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS demo</title>
+  <style type="text/css">
+	.ex2 col:first-child {background: #FF0}
+	.ex2 col:nth-child(2n+3) {background: #CCC}
+
+	.ex1 tr:nth-child(even) {background: #CCC}
+	.ex1 tr:nth-child(odd) {background: #FFF}
+  </style>
+</head>
+
+<body>
+<h1>Example 1</h1>
+<pre>
+.ex1 tr:nth-child(even) {background: #CCC}
+.ex1 tr:nth-child(odd) {background: #FFF}
+</pre>
+<table class="ex1">
+  <colgroup>
+  	<col><col><col><col>
+  </colgroup>
+  <tbody>
+  <thead>
+  <tr>
+    <th>Month</th><th>Users</th><th>Unique</th><th>Pages</th>
+  </tr>
+  </thead>
+    <tr>
+      <td>Jan</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>Feb</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>Mar</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>Apr</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>May</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>Jun</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>&nbsp;<br>
+
+<h1>Example 2</h1>
+<pre>
+.ex2 col:first-child {background: #FF0}
+.ex2 col:nth-child(2n+3) {background: #CCC}
+</pre>
+<table class="ex2">
+  <colgroup>
+  	<col><col><col><col>
+  </colgroup>
+  <tbody>
+  <thead>
+  <tr>
+    <th>Month</th><th>Users</th><th>Unique</th><th>Pages</th>
+  </tr>
+  </thead>
+    <tr>
+      <td>Jan</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>Feb</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>Mar</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>Apr</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>May</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+        <tr>
+      <td>Jun</td><td>123</td><td>50</td><td>250</td>
+    </tr>
+  </tbody>
+</table>
+</body>
