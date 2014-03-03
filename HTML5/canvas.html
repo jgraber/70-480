@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS demo: Canvas</title>
+  <script src="JavaScript/Scripts/jquery-2.1.0.js"></script>
+  <script type="text/javascript">
+
+
+	$(document).ready(function () {
+		drawRect();	
+	});
+	function drawRect() {
+		var canvas = document.getElementById('myCanvas');
+		ctx = canvas.getContext('2d');
+		ctx.fillStyle = 'yellow';
+		ctx.strokeStyle = 'blue';
+		ctx.lineWidth = 10;
+		ctx.beginPath();
+		ctx.moveTo(100, 100);
+		ctx.lineTo(150, 50);
+		ctx.lineTo(200, 100);
+		ctx.rect(100, 100, 100, 100);
+		ctx.fill();
+		ctx.stroke();
+
+		ctx.strokeStyle = 'red';
+		ctx.lineWidth = 5;
+		ctx.beginPath();
+		ctx.rect(125, 125, 50, 50);
+		ctx.stroke();
+	}
+</script>
+
+</head>
+
+<body>
+<h1>Canvas</h1>
+<pre>
+function drawRect() {
+  var canvas = document.getElementById('myCanvas');
+  ctx = canvas.getContext('2d');
+  ctx.fillStyle = 'yellow';
+  ctx.strokeStyle = 'blue';
+  ctx.lineWidth = 10;
+  ctx.beginPath();
+  ctx.moveTo(100, 100);
+  ctx.lineTo(150, 50);
+  ctx.lineTo(200, 100);
+  ctx.rect(100, 100, 100, 100);
+  ctx.fill();
+  ctx.stroke();
+  
+  ctx.strokeStyle = 'red';
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.rect(125, 125, 50, 50);
+  ctx.stroke();
+}
+</pre>
+
+<canvas id="myCanvas" width="300" height="300" style="border:1px solid #000000;"></canvas>
+</body>
