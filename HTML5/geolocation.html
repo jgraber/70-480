@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML 5 Position</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+	</script>
+    <script type="text/javascript">
+	var getPosition = function(){
+		navigator.geolocation.getCurrentPosition(function(position) { 
+			showLocation(position.coords.latitude, position.coords.longitude);
+		});
+	};
+
+	var showLocation = function(lat, lng){
+		var fragment = "&markers=color:red|color:red|label:A|" + lat + "," + lng;
+		var image = $("#map");      
+		var source = image.attr("src") + fragment;
+		source = source.replace("sensor=false", "sensor=true");
+		image.attr("src", source);
+	};
+	
+	$(document).ready(function () {
+		getPosition();	
+	});
+	</script>
+  </head>
+  <body>
+  <h1>Position</h1>
+<pre>
+var getPosition = function(){
+  navigator.geolocation.getCurrentPosition(function(position) { 
+    showLocation(position.coords.latitude, position.coords.longitude);
+  });
+};
+
+var showLocation = function(lat, lng){
+  var fragment = "&markers=color:red|color:red|label:A|" + lat + "," + lng;
+  var image = $("#map");      
+  var source = image.attr("src") + fragment;
+  source = source.replace("sensor=false", "sensor=true");
+  image.attr("src", source);
+};
+	
+$(document).ready(function () {
+  getPosition();	
+});
+</pre>
+   <p>
+<img id="map" src="http://maps.google.com/maps/api/staticmap?&amp;size=900x500&amp;sensor=false&amp;maptype=roadmap">
+   </p>
+
+  </body>
+</html>
