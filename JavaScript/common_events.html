@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Common JavaScript Events</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+	</script>
+    <script type="text/javascript">
+	var myBlur = function(){
+		$("#one").text("OnBlure fired!");
+		console.log("done");
+	};
+	var myFocus = function(){
+		$("#two").text("OnFocus fired!");
+		console.log("done");
+	};
+	var myClick = function(){
+		$("#three").text("OnClick fired!");
+		console.log("done");
+	};
+	
+	var myClear = function(){
+		$("#one").text("");
+		$("#two").text("");
+		$("#three").text("");
+		console.log("done");
+	};
+	</script>
+  </head>
+  <body>
+  <h1>Common JavaScript Events</h1>
+  
+  <label for="blur">OnBlur:</label> <input type="text" id="blur" onblur="myBlur()"> <span id="one"></span><br>
+  
+  <label for="focus">OnFocus:</label> <input type="text" id="focus" onfocus="myFocus()"> <span id="two"></span><br>
+  
+  <label for="click">OnClick:</label> <input type="text" id="click" onclick="myClick()"> <span id="three"></span><br>
+  
+  <button onclick="myClear()">Clear!</button>
+  
+<pre>
+&lt;input type="text" id="blur" onblur="myBlur()">
+&lt;input type="text" id="focus" onfocus="myFocus()">
+&lt;input type="text" id="click" onclick="myClick()">
+
+var myBlur = function(){
+  $("#one").text("OnBlure fired!");
+  console.log("done");
+};
+var myFocus = function(){
+  $("#two").text("OnFocus fired!");
+  console.log("done");
+};
+var myClick = function(){
+  $("#three").text("OnClick fired!");
+  console.log("done");
+};
+	
+var myClear = function(){
+  $("#one").text("");
+  $("#two").text("");
+  $("#three").text("");
+  console.log("done");
+};
+</pre>
+
+
+  </body>
+</html>
