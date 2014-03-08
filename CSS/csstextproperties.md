@@ -3,36 +3,36 @@
 For all the CSS 3 properties that are not so clear to me ...
 
 
-## text-decoration
+## text-decoration (Textdekoration)
 
 **Syntax:** `text-decoration: none|underline|overline|line-through|initial|inherit;`
 
 
 | Value        | Description                                    |
 |--------------|------------------------------------------------|
-| none         | (default) normal text                          |
+| none         | (default) normal text (on links: no underline) |
 | underline    | line below the text                            |
 | overline     | line above the text                            |
 | line-through | line through the text                          |
-| initial      | sets this property to its default value        |
+| blink        | text is blinking |
 | inherit      | inherits this property from its parent element |
 
 
 
-## text-indent
+## text-indent (Texteinrückung)
 
 **Syntax:** `text-indent: length|initial|inherit;`
 
 | Value        | Description                                    |
 |--------------|------------------------------------------------|
-| length       | fixed indentation in px, pt, cm, em, etc. (default: 9) |
-| Defines      | indentation in % of parent element width 
+| length [abs] | fixed indentation in px, pt, cm, em, etc. (default: 9) |
+| lenght [%]   | indentation in % of parent element width |
 | initial      | sets this property to its default value        |
 | inherit      | inherits this property from its parent element |
 
 
 
-## text-shadow
+## text-shadow (Textschatten)
 
 **Syntax:** `text-shadow: hori-shadow ver-shadow blur color|none|initial|inherit;`
 
@@ -60,7 +60,7 @@ text-shadow:5px 5px 10px #00FF00;
 
 
 
-## text-transform
+## text-transform (Gross/Kleinschreibung)
 
 **Syntax:** `text-transform: none|capitalize|uppercase|lowercase|initial|inherit;`
 
@@ -75,7 +75,7 @@ text-shadow:5px 5px 10px #00FF00;
 
 
 
-## text-overflow
+## text-overflow ()
 
 **Syntax:** `text-overflow: clip|ellipsis|string|initial|inherit;`
 
