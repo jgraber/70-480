@@ -20,9 +20,9 @@ Programming in HTML5 with JavaScript and CSS3
 
 ### Write code that interacts with UI controls
 * Programmatically add and modify HTML elements
-* implement media controls
-* implement HTML5 canvas 
-* implement SVG graphics
+* [implement media controls](./HTML5/media_controls.html)
+* [implement HTML5 canvas](./HTML5/canvas.html) 
+* [implement SVG graphics](./HTML5/svg.html)
 
 
 ### Apply styling to HTML elements programmatically
@@ -32,9 +32,9 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Implement HTML5 APIs
-* Implement storage APIs 
-* AppCache API and 
-* Geolocation API
+* [Implement storage APIs ](./HTML5/storage.html)
+* [AppCache API and ](http://www.html5rocks.com/de/tutorials/appcache/beginner/)
+* [Geolocation API](geolocation.html)
 
 
 ### Establish the scope of objects and variables
@@ -82,11 +82,11 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Create a web worker process
-* Start and stop a web worker
-* pass data to a web worker
-* configure timeouts and intervals on the web worker
-* register an event listener for the web worker
-* limitations of a web worker
+* [Start and stop a web worker](http://www.html5rocks.com/de/tutorials/workers/basics/)
+* [pass data to a web worker](http://www.html5rocks.com/de/tutorials/workers/basics/)
+* [configure timeouts and intervals on the web worker](http://www.html5rocks.com/de/tutorials/workers/basics/)
+* [register an event listener for the web worker](http://www.html5rocks.com/de/tutorials/workers/basics/)
+* [limitations of a web worker](http://www.html5rocks.com/de/tutorials/workers/basics/)
 
 
 
@@ -127,12 +127,12 @@ Programming in HTML5 with JavaScript and CSS3
 * apply styles to text font (WOFF and @font-face, size)
 * apply styles to text alignment, spacing, and indentation
 * apply styles to text hyphenation
-* apply styles for a text drop shadow
+* [apply styles for a text drop shadow](./CSS/shadow.html)
 
 
 ### Style HTML box properties
 * Apply styles to alter appearance attributes (size, border and rounding border corners, outline, padding, margin)
-* apply styles to alter graphic effects (transparency, opacity, background image, gradients, shadow, clipping)
+* [apply styles to alter graphic effects (transparency, opacity, background image, gradients, shadow, clipping)](./CSS/shadow.html)
 * apply styles to establish and change an element’s position (static, relative, absolute, fixed)
 
 
@@ -146,7 +146,7 @@ Programming in HTML5 with JavaScript and CSS3
 
 ### Create an animated and adaptive UI
 * Animate objects by applying CSS transitions
-* apply 3-D and 2-D transformations
+* [apply 3-D and 2-D transformations](http://desandro.github.io/3dtransforms/)
 * adjust UI based on media queries (device adaptations for output formats, displays, and representations)
 * hide or disable controls
 
@@ -154,12 +154,12 @@ Programming in HTML5 with JavaScript and CSS3
 ### Find elements by using CSS selectors and jQuery
 * Choose the correct selector to reference an element
 * define element, style, and attribute selectors
-* find elements by using pseudo-elements and pseudo-classes (for example, :before, :first-line, :first-letter, :target, :lang, :checked, :first-child)
+* [find elements by using pseudo-elements and pseudo-classes (for example, :before, :first-line, :first-letter, :target, :lang, :checked, :first-child)](./CSS/tablelayout.html)
 
 
 ### Structure a CSS file by using CSS selectors
 * Reference elements correctly
 * implement inheritance
 * override inheritance by using !important
-* style an element based on pseudo-elements and pseudo-classes (for example, :before, :first-line, :first-letter, :target, :lang, :checked, :first-child)
+* [style an element based on pseudo-elements and pseudo-classes (for example, :before, :first-line, :first-letter, :target, :lang, :checked, :first-child)](./CSS/tablelayout.html)
 
