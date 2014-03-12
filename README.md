@@ -14,8 +14,8 @@ Programming in HTML5 with JavaScript and CSS3
 ## Implement and manipulate document structures and objects (24%)
 
 ### Create the document structure
-* Structure the UI by using semantic markup, including for search engines and screen readers (Section, Article, Nav, Header, Footer, and Aside)
-* create a layout container in HTML
+* [Structure the UI by using semantic markup, including for search engines and screen readers (Section, Article, Nav, Header, Footer, and Aside)](./HTML5/ui_structure_with_aria.html)
+* [create a layout container in HTML](./HTML5/ui_structure_with_aria.html)
 
 
 ### Write code that interacts with UI controls
@@ -38,39 +38,39 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Establish the scope of objects and variables
-* Define the lifetime of variables
-* keep objects out of the global namespace
-* use the “this” keyword to reference an object that fired an event
-* scope variables locally and globally
+* [Define the lifetime of variables](http://stackoverflow.com/questions/762011/javascript-let-keyword-vs-var-keyword)
+* [keep objects out of the global namespace](http://www.jimmycuadra.com/posts/organizing-javascript-with-namespaces-and-function-prototypes)
+* [use the “this” keyword to reference an object that fired an event](https://learn.jquery.com/javascript-101/this-keyword/)
+* [scope variables locally and globally](http://stackoverflow.com/questions/762011/javascript-let-keyword-vs-var-keyword)
 
 
 ### Create and implement objects and methods
-* Implement native objects
-* create custom objects and custom properties for native objects using prototypes and functions
-* inherit from an object
-* implement native methods and create custom methods
+* [Implement native objects](http://msdn.microsoft.com/en-us/library/zbbaddzd(v=vs.94).aspx)
+* [create custom objects and custom properties for native objects using prototypes and functions](http://msdn.microsoft.com/en-us/library/hh924508(v=vs.94).aspx)
+* [inherit from an object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+* [implement native methods and create custom methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 
 
 
 ## Implement  program flow (25%)
 
 ### Implement program flow
-* Iterate across collections and array items
-* manage program decisions by using switch statements, if/then, and operators
-* evaluate expressions
+* [Iterate across collections](http://msdn.microsoft.com/en-us/library/dn479050(v=vs.94).aspx) and [array items](http://msdn.microsoft.com/en-us/library/5kh4af6c(v=vs.94).aspx)
+* [manage program decisions by using switch statements](http://msdn.microsoft.com/de-de/library/hzc6t81t(v=vs.94).aspx), [if/then](http://www.tutorialspoint.com/javascript/javascript_ifelse.htm)
+* [evaluate expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 
 
 ### Raise and handle an event
-* Handle common events exposed by DOM (OnBlur, OnFocus, OnClick); 
-* declare and handle bubbled events
-* handle an event by using an anonymous function
+* [Handle common events exposed by DOM (OnBlur, OnFocus, OnClick)](./JavaScript/common_events.html)
+* [declare and handle bubbled events](http://javascript.info/tutorial/bubbling-and-capturing)
+* [handle an event by using an anonymous function](./JavaScript/common_events.html)
 
 
 ### Implement exception handling
-* Set and respond to error codes
-* throw an exception
-* request for null checks
-* implement try-catch-finally blocks
+* [Set and respond to error codes](http://www.tutorialspoint.com/javascript/javascript_error_handling.htm)
+* [throw an exception](http://msdn.microsoft.com/de-de/library/85fscz6h(v=vs.94).aspx)
+* [request for null checks](http://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined)
+* [implement try-catch-finally blocks](http://msdn.microsoft.com/de-de/library/4yahc5d8(v=vs.94).aspx)
 
 
 ### Implement a callback
@@ -101,7 +101,7 @@ Programming in HTML5 with JavaScript and CSS3
 ### Validate user input by using JavaScript
 * Evaluate a regular expression to validate the input format
 * validate that you are getting the right kind of data type by using built-in functions
-* prevent code injection
+* [prevent code injection](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet) ([and more](http://blog.stackoverflow.com/2008/06/safe-html-and-xss/))
 
 
 ### Consume data
@@ -124,7 +124,7 @@ Programming in HTML5 with JavaScript and CSS3
 
 ### Style HTML text properties
 * Apply styles to text appearance (color, bold, italics)
-* apply styles to text font (WOFF and @font-face, size)
+* [apply styles to text font (WOFF and @font-face, size)](./CSS/woff.html)
 * apply styles to text alignment, spacing, and indentation
 * apply styles to text hyphenation
 * [apply styles for a text drop shadow](./CSS/shadow.html)
