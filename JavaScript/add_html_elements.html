@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>JGraber</title>
+    <style type="text/css">
+    .blue {
+    	background-color: blue;
+    	margin: 10px;
+    	color: white;
+    }
+	</style>
+	
+	<script type="text/javascript">
+	var addBox = function(){
+		$("#play").append("<div class='blue'>Box</div>");
+	};
+	</script>
+  </head>
+  <body>
+   <h1>Add Elements</h1>
+   <pre>
+&lt;style type="text/css">
+.blue {
+	background-color: blue;
+	margin: 10px;
+	color: white;
+}
+&lt;/style>
+
+&lt;script type="text/javascript">
+var addBox = function(){
+	$("#play").append("&lt;div class='blue'>Box&lt;/div>");
+};
+&lt;/script>
+   </pre>
+
+    <button onclick="addBox()">Add Box</button>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <div id="play">
+    </div>
+  </body>
+</html>
