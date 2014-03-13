@@ -2,6 +2,7 @@
 ## Often used Selectors
 
 |Selector | What is selected |
+|--------------|------------------------------------------------|
 |("*") | All elements |
 |(".class")| All elements with class="class"|
 |("#id")| All elements with id="id"|
