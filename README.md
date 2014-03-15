@@ -19,16 +19,16 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Write code that interacts with UI controls
-* Programmatically add and modify HTML elements
+* [Programmatically add and modify HTML elements](./JavaScript/add_html_elements.html)
 * [implement media controls](./HTML5/media_controls.html)
 * [implement HTML5 canvas](./HTML5/canvas.html) 
 * [implement SVG graphics](./HTML5/svg.html)
 
 
 ### Apply styling to HTML elements programmatically
-* Change the location of an element
-* apply a transform
-* show and hide elements
+* [Change the location of an element](./CSS/transform_elements.html)
+* [apply a transform](./CSS/transform_elements.html)
+* [show and hide elements](./CSS/transform_elements.html)
 
 
 ### Implement HTML5 APIs
@@ -123,17 +123,17 @@ Programming in HTML5 with JavaScript and CSS3
 ## Use CSS3 in applications (25%)
 
 ### Style HTML text properties
-* Apply styles to text appearance (color, bold, italics)
+* [Apply styles to text appearance (color, bold, italics)](./CSS/textmodifications.html)
 * [apply styles to text font (WOFF and @font-face, size)](./CSS/woff.html)
-* apply styles to text alignment, spacing, and indentation
-* apply styles to text hyphenation
+* [apply styles to text alignment, spacing, and indentation](./CSS/textmodifications.html)
+* [apply styles to text hyphenation](./CSS/textmodifications.html)
 * [apply styles for a text drop shadow](./CSS/shadow.html)
 
 
 ### Style HTML box properties
-* Apply styles to alter appearance attributes (size, border and rounding border corners, outline, padding, margin)
+* [Apply styles to alter appearance attributes (size, border and rounding border corners, outline, padding, margin)](./CSS/boxes.html)
 * [apply styles to alter graphic effects (transparency, opacity, background image, gradients, shadow, clipping)](./CSS/shadow.html)
-* apply styles to establish and change an element’s position (static, relative, absolute, fixed)
+* [apply styles to establish and change an element’s position (static, relative, absolute, fixed)](./CSS/boxes.html)
 
 
 ### Create a flexible content layout
@@ -145,15 +145,15 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Create an animated and adaptive UI
-* Animate objects by applying CSS transitions
+* [Animate objects by applying CSS transitions](./CSS/transform_elements.html)
 * [apply 3-D and 2-D transformations](http://desandro.github.io/3dtransforms/)
 * adjust UI based on media queries (device adaptations for output formats, displays, and representations)
-* hide or disable controls
+* [hide or disable controls](./CSS/transform_elements.html)
 
 
 ### Find elements by using CSS selectors and jQuery
-* Choose the correct selector to reference an element
-* define element, style, and attribute selectors
+* [Choose the correct selector to reference an element](./CSS/CSS_selectors_in_jQuery.md)
+* [define element, style, and attribute selectors](./CSS/CSS_selectors_in_jQuery.md)
 * [find elements by using pseudo-elements and pseudo-classes (for example, :before, :first-line, :first-letter, :target, :lang, :checked, :first-child)](./CSS/tablelayout.html)
 
 
