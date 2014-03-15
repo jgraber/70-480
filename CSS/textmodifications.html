@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <!-- See http://webdesign.tutsplus.com/articles/an-introduction-to-the-css3-multiple-column-layout-module--webdesign-4934 -->
+    <meta charset="utf-8">
+    <title>JGraber</title>
+    <style type="text/css">
+    .appearance {
+    	text-transform: capitalize;
+      text-decoration: overline;
+      text-indent: 50px;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    .allign {
+      -webkit-column-count: 4;
+      -webkit-column-gap: 10px; 
+      -webkit-column-rule: 0px dotted black;
+      -moz-column-count: 4;
+      -moz-column-gap: 10px;  
+      -moz-column-rule: 0px dotted black;
+      column-count: 4;
+      column-gap: 10px; 
+      column-rule: 0px dotted black;
+      background-color: yellow;
+    }
+
+    .hyp {
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
+      -ms-hyphens: auto;
+      width: 125px;
+    }
+	</style>
+  </head>
+  
+  <body>
+   <h1>Transform Elements</h1>
+   <pre>
+.appearance {
+  text-transform: capitalize;
+  text-decoration: overline;
+  text-indent: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.allign {
+  -webkit-column-count: 4;
+  -webkit-column-gap: 10px; 
+  -webkit-column-rule: 0px dotted black;
+  -moz-column-count: 4;
+  -moz-column-gap: 10px;  
+  -moz-column-rule: 0px dotted black;
+  column-count: 4;
+  column-gap: 10px; 
+  column-rule: 0px dotted black;
+  background-color: yellow;
+}
+
+.hyp {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -ms-hyphens: auto;
+  width: 125px;
+}
+   </pre>
+
+<div class="appearance">
+This is a simple text.
+</div>
+
+&nbsp;
+
+<div class="allign">
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</div>
+
+&nbsp;
+
+<div class="hyp">
+Obwohl sehr viel über OO-Design geschrieben wird ist es sehr schwer ein gutes Buch für den Einstieg zu finden. Sandi Metz hat einen guten Mittelweg zwischen Theorie und Praxis gefunden und es gelingt ihr dieses Thema in verständlichen Schritten zu erklären. Auch wer sich mit Ruby nicht auskennt kann hier viel über OO-Design lernen. 
+</div>
+
+  </body>
+</html>
