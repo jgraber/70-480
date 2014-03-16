@@ -7,7 +7,7 @@ Programming in HTML5 with JavaScript and CSS3
 * [HTML5 and CSS3 (2nd edition)](http://pragprog.com/book/bhh52e/html5-and-css3)
 * [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)
 * [Measure Up 70-480 Traing](http://www.measureup.com/70-480-Programming-in-HTML5-with-JavaScript-and-CSS3-P4900.aspx)
-
+* [Study Notes from @adnanmasood](http://blog.adnanmasood.com/2012/12/15/study-notes-for-70-480-programming-html5-and-css-3-microsoft-exam/comment-page-1/)
 
 # Skills measured
 
@@ -99,25 +99,25 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Validate user input by using JavaScript
-* Evaluate a regular expression to validate the input format
-* validate that you are getting the right kind of data type by using built-in functions
+* [Evaluate a regular expression to validate the input format](http://msdn.microsoft.com/en-us/library/h6e2eb7w(v=vs.94).aspx)
+* [validate that you are getting the right kind of data type by using built-in functions](http://msdn.microsoft.com/en-us/library/259s7zc1(v=VS.94).aspx)
 * [prevent code injection](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet) ([and more](http://blog.stackoverflow.com/2008/06/safe-html-and-xss/))
 
 
 ### Consume data
-* Consume JSON and XML data
-* retrieve data by using web services
-* load data or get data from other sources by using XMLHTTPRequest
+* [Consume JSON and XML data](./JavaScript/ajax.html)
+* [retrieve data by using web services](./JavaScript/ajax.html)
+* [load data or get data from other sources by using XMLHTTPRequest](http://msdn.microsoft.com/en-us/library/ie/ms535874(v=vs.85).aspx)
 
 
 ### Serialize, deserialize, and transmit data
-* Binary data
-* text data (JSON, XML)
-* implement the jQuery serialize method
-* Form.Submit
-* parse data 
-* send data by using XMLHTTPRequest
-* sanitize input by using URI/form encoding
+* [Binary data](http://msdn.microsoft.com/en-us/library/ie/hh673569(v=vs.85).aspx#Binary_Object_upload_and_download)
+* [text data (JSON, XML)](http://msdn.microsoft.com/en-us/library/ie/hh872882(v=vs.85).aspx)
+* [implement the jQuery serialize method](http://api.jquery.com/serialize/)
+* [Form.Submit](http://msdn.microsoft.com/en-us/library/ie/ms536771%28v=vs.85%29.aspx)
+* [parse data ](http://msdn.microsoft.com/en-us/library/cc836466(v=vs.94).aspx)
+* [send data by using XMLHTTPRequest](http://msdn.microsoft.com/en-us/library/ie/ms535874(v=vs.85).aspx)
+* [sanitize input by using URI/form encoding](http://msdn.microsoft.com/en-us/library/aeh9cef7%28v=vs.94%29.aspx)
 
 
 ## Use CSS3 in applications (25%)
