@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <!-- See http://webdesign.tutsplus.com/articles/an-introduction-to-the-css3-multiple-column-layout-module--webdesign-4934 -->
+    <meta charset="utf-8">
+    <title>JGraber</title>
+    <style type="text/css">
+	p {
+		color: green;
+	}
+		
+	p strong a:link {
+		color: orange;
+	}	
+	
+	p a:link {
+		/* make link inside strong tag green */
+		color: inherit !important;
+	}
+	</style>
+  </head>
+  
+  <body>
+   <h1>Inherit CSS</h1>
+   <pre>
+p {
+color: green;
+}
+		
+p strong a:link {
+  color: orange;
+}	
+	
+p a:link {
+  /* make link inside strong tag green */
+  color: inherit !important;
+}
+   </pre>
+
+   
+<p>
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
+voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<p> 
+
+<p>
+Stet clita <strong>kasd <a href="go.js">gubergren, no sea</a> takimata sanctus</strong> est Lorem ipsum dolor sit 
+amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+sed diam voluptua. <a href="go.js">At vero eos et accusam et justo</a> duo dolores et ea rebum. 
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+
+
+  </body>
+</html>
