@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML 5 Form</title>
+  </head>
+  <body>
+  <h1>Form</h1>
+<pre>
+ &lt;label for="email">E-mail: &lt;/label>&lt;input type="email" name="email" id="email" autofocus>&lt;br/>
+ &lt;label for="name">Name: &lt;/label>&lt;input type="text" name="name" id="name" required="required" placeholder="Username">&lt;br/>
+ &lt;label for="password">Password: &lt;/label>&lt;input type="password" id="password" name="password">&lt;br/>
+ &lt;label for="date">Start Date: &lt;/label>&lt;input type="date"  id="date" name="date" min="2000-01-02">&lt;br/>
+ &lt;label for="quantity">Quantity (between 1 and 5):&lt;/label>&lt;input type="number" name="quantity" id="quantity" min="1" max="5">&lt;br/>
+ &lt;label for="country_code">Country code:&lt;/label>&lt;input type="text" name="country_code" id="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">&lt;br/>
+ &lt;label for="color">Color: &lt;/label>&lt;input type="color" name="color" id="color"> &lt;br/>
+ &lt;label for="slider">Points: &lt;/label>&lt;input id="slider" type="range" min="100" max="500" step="10" /> &lt;br/>
+ &lt;input type="submit">
+</pre>
+
+<form action="send.js">
+ <label for="email">E-mail: </label><input type="email" name="email" id="email" autofocus><br/>
+ <label for="name">Name: </label><input type="text" name="name" id="name" required="required" placeholder="Username"><br/>
+ <label for="password">Password: </label><input type="password" id="password" name="password"><br/>
+ <label for="date">Start Date: </label><input type="date"  id="date" name="date" min="2000-01-02"><br/>
+ <label for="quantity">Quantity (between 1 and 5):</label><input type="number" name="quantity" id="quantity" min="1" max="5"><br/>
+ <label for="country_code">Country code:</label><input type="text" name="country_code" id="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br/>
+ <label for="color">Color: </label><input type="color" name="color" id="color"> <br/>
+ <label for="slider">Points: </label><input id="slider" type="range" min="100" max="500" step="10" /> <br/>
+ <input type="submit">
+</form> 
+
+  </body>
+</html>
