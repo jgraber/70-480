@@ -94,8 +94,8 @@ Programming in HTML5 with JavaScript and CSS3
 ## Access and secure data (26%)
 
 ### Validate user input by using HTML5 elements
-* Choose the appropriate controls based on requirements
-* implement HTML input types and content attributes (for example, required) to collect user input
+* [Choose the appropriate controls based on requirements](./HTML5/form.html)
+* [implement HTML input types and content attributes (for example, required) to collect user input](./HTML5/form.html)
 
 
 ### Validate user input by using JavaScript
@@ -147,7 +147,7 @@ Programming in HTML5 with JavaScript and CSS3
 ### Create an animated and adaptive UI
 * [Animate objects by applying CSS transitions](./CSS/transform_elements.html)
 * [apply 3-D and 2-D transformations](http://desandro.github.io/3dtransforms/)
-* adjust UI based on media queries (device adaptations for output formats, displays, and representations)
+* [adjust UI based on media queries (device adaptations for output formats, displays, and representations)](./HTML5/media_query.html)
 * [hide or disable controls](./CSS/transform_elements.html)
 
 
@@ -158,8 +158,8 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Structure a CSS file by using CSS selectors
-* Reference elements correctly
-* implement inheritance
-* override inheritance by using !important
+* [Reference elements correctly](http://www.htmlhelp.com/reference/css/structure.html)
+* [implement inheritance](./CSS/inherit.html)
+* [override inheritance by using !important](./CSS/inherit.html)
 * [style an element based on pseudo-elements and pseudo-classes (for example, :before, :first-line, :first-letter, :target, :lang, :checked, :first-child)](./CSS/tablelayout.html)
 
