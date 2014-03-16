@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>JGraber</title>
+    <style type="text/css">
+	</style>
+	
+	Text: <input type="text" id="queryValue">
+	<script type="text/javascript">
+	var callService = function(){
+	
+		var payload = $('#queryValue').val();
+		$.ajax({
+			type: 'GET', 
+			url: 'http://md5.jsontest.com/', 
+			data: { text:  payload}, 
+			dataType: 'json',
+			success: function (data) { 
+				
+				$('body').append($('<div>', {
+						text: data.original + "  =>  " + data.md5
+					}));
+				
+			}
+		});
+	};
+	</script>
+  </head>
+  <body>
+   <h1>Ajax Call</h1>
+   <pre>
+var callService = function(){
+  var payload = $('#queryValue').val();
+  $.ajax({
+    type: 'GET', 
+    url: 'http://md5.jsontest.com/', 
+    data: { text:  payload}, 
+    dataType: 'json',
+    success: function (data) { 	
+	  $('body').append($('<div>', {
+        text: data.original + "  =>  " + data.md5
+      }));				
+    }
+  });
+};
+   </pre>
+
+    <button onclick="callService()">Call Service</button>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <div id="resultBox">
+    </div>
+  </body>
+</html>
