@@ -74,11 +74,11 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Implement a callback
-* Receive messages from the HTML5 WebSocket API
-* use jQuery to make an AJAX call
-* wire up an event
-* implement a callback by using anonymous functions
-* handle the “this” pointer
+* [Receive messages from the HTML5 WebSocket API](http://www.tutorialspoint.com/html5/html5_websocket.htm) [2nd example](http://www.html5rocks.com/de/tutorials/websockets/basics/)
+* [use jQuery to make an AJAX call](./JavaScript/ajax.html)
+* [wire up an event](./JavaScript/ajax.html)
+* [implement a callback by using anonymous functions](./JavaScript/ajax.html)
+* [handle the “this” pointer](./HTML5/storage.html)
 
 
 ### Create a web worker process
@@ -137,11 +137,11 @@ Programming in HTML5 with JavaScript and CSS3
 
 
 ### Create a flexible content layout
-* Implement a layout using a flexible box model
-* implement a layout using multi-column
-* implement a layout using position floating and exclusions
-* implement a layout using grid alignment
-* implement a layout using regions, grouping, and nesting
+* [Implement a layout using a flexible box model](http://coding.smashingmagazine.com/2011/09/19/css3-flexible-box-layout-explained/) [and here](http://coding.smashingmagazine.com/2013/05/22/centering-elements-with-flexbox/)
+* [implement a layout using multi-column](http://www.inserthtml.com/2012/01/css3-multi-column-layout-implementation-change-website-design/)
+* [implement a layout using position floating and exclusions](http://msdn.microsoft.com/en-us/library/ie/hh673558(v=vs.85).aspx)
+* [implement a layout using grid alignment](http://msdn.microsoft.com/en-us/library/ie/hh673533(v=vs.85).aspx)
+* [implement a layout using regions, grouping, and nesting](http://msdn.microsoft.com/en-us/library/ie/hh673537(v=vs.85).aspx)
 
 
 ### Create an animated and adaptive UI
