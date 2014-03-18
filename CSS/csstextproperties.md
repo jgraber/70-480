@@ -87,3 +87,17 @@ text-shadow:5px 5px 10px #00FF00;
 | initial      | sets this property to its default value        |
 | inherit      | inherits this property from its parent element |
 
+
+
+## text-align
+`text-align: left|right|center|justify|initial|inherit;`
+
+| Value        | Description                                    |
+|--------------|------------------------------------------------|
+| left | aligns text to the left |
+| right	| aligns text to the right |
+| center | centers the text |
+| justify | stretches the lines so that each line has equal width (Blocksatz) | 
+| initial      | sets this property to its default value        |
+| inherit      | inherits this property from its parent element |
+
