@@ -9,6 +9,20 @@ Programming in HTML5 with JavaScript and CSS3
 * [Measure Up 70-480 Traing](http://www.measureup.com/70-480-Programming-in-HTML5-with-JavaScript-and-CSS3-P4900.aspx)
 * [Study Notes from @adnanmasood](http://blog.adnanmasood.com/2012/12/15/study-notes-for-70-480-programming-html5-and-css-3-microsoft-exam/comment-page-1/)
 
+
+
+# CSS Cascading order
+Sort according to importance (normal or important) and origin (author, user, or user agent). In ascending order of precedence:
+
+1. user agent declarations
+2. user normal declarations
+3. author normal declarations
+4. author important declarations
+5. user important declarations
+
+[http://www.w3.org/TR/CSS2/cascade.html#cascading-order](http://www.w3.org/TR/CSS2/cascade.html#cascading-order)
+
+
 # Skills measured
 
 ## Implement and manipulate document structures and objects (24%)
