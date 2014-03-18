@@ -34,7 +34,7 @@ Programming in HTML5 with JavaScript and CSS3
 ### Implement HTML5 APIs
 * [Implement storage APIs ](./HTML5/storage.html)
 * [AppCache API and ](http://www.html5rocks.com/de/tutorials/appcache/beginner/)
-* [Geolocation API](geolocation.html)
+* [Geolocation API](./HTML5/geolocation.html)
 
 
 ### Establish the scope of objects and variables
